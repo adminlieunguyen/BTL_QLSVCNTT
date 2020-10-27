@@ -9,11 +9,11 @@ namespace DAL
 {
     public partial class ItemRepository : IItemRepository
     {
-        private IDatabaseHelper _dbHelper;
-        public ItemRepository(IDatabaseHelper dbHelper)
-        {
-            _dbHelper = dbHelper;
-        }
+        //private IDatabaseHelper _dbHelper;
+        //public ItemRepository(IDatabaseHelper dbHelper)
+        //{
+        //    _dbHelper = dbHelper;
+        //}
 
         public bool Create(ItemModel model)
         {
